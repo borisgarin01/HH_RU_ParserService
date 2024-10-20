@@ -1,0 +1,10 @@
+﻿.vs
+Data/bin
+Data/obj
+Domain/bin
+Domain/obj
+Service/bin
+Service/obj
+WebClients/bin
+WebClients/obj
+*.sln
