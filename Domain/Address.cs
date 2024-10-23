@@ -19,11 +19,11 @@ namespace Domain
 
         [JsonProperty("lat", NullValueHandling = NullValueHandling.Ignore)]
         [JsonPropertyName("lat")]
-        public double Lat { get; set; }
+        public double? Lat { get; set; }
 
         [JsonProperty("lng", NullValueHandling = NullValueHandling.Ignore)]
         [JsonPropertyName("lng")]
-        public double Lng { get; set; }
+        public double? Lng { get; set; }
 
         [JsonProperty("raw", NullValueHandling = NullValueHandling.Ignore)]
         [JsonPropertyName("raw")]
